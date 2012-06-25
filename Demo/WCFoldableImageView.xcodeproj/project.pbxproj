@@ -1,0 +1,325 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BF2F9B37159819FF009E1D80 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF2F9B36159819FF009E1D80 /* UIKit.framework */; };
+		BF2F9B39159819FF009E1D80 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF2F9B38159819FF009E1D80 /* Foundation.framework */; };
+		BF2F9B3B159819FF009E1D80 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF2F9B3A159819FF009E1D80 /* CoreGraphics.framework */; };
+		BF2F9B41159819FF009E1D80 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BF2F9B3F159819FF009E1D80 /* InfoPlist.strings */; };
+		BF2F9B43159819FF009E1D80 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BF2F9B42159819FF009E1D80 /* main.m */; };
+		BF2F9B47159819FF009E1D80 /* WCAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BF2F9B46159819FF009E1D80 /* WCAppDelegate.m */; };
+		BF2F9B4A159819FF009E1D80 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF2F9B48159819FF009E1D80 /* MainStoryboard.storyboard */; };
+		BF2F9B4D159819FF009E1D80 /* WCViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BF2F9B4C159819FF009E1D80 /* WCViewController.m */; };
+		BF2F9B5915981A71009E1D80 /* WCFoldableImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = BF2F9B5815981A71009E1D80 /* WCFoldableImageView.m */; };
+		BF2F9B5F15981C3E009E1D80 /* Image.png in Resources */ = {isa = PBXBuildFile; fileRef = BF2F9B5D15981C3E009E1D80 /* Image.png */; };
+		BF2F9B6015981C3E009E1D80 /* Image@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BF2F9B5E15981C3E009E1D80 /* Image@2x.png */; };
+		BF2F9B6215981CBE009E1D80 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = BF2F9B6115981CBE009E1D80 /* Icon.png */; };
+		BF2F9B6415981CC3009E1D80 /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BF2F9B6315981CC3009E1D80 /* Icon@2x.png */; };
+		BF2F9B6615981EBE009E1D80 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF2F9B6515981EBE009E1D80 /* QuartzCore.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		BF2F9B32159819FF009E1D80 /* WCFoldableImageView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WCFoldableImageView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF2F9B36159819FF009E1D80 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		BF2F9B38159819FF009E1D80 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		BF2F9B3A159819FF009E1D80 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		BF2F9B3E159819FF009E1D80 /* WCFoldableImageView-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "WCFoldableImageView-Info.plist"; sourceTree = "<group>"; };
+		BF2F9B40159819FF009E1D80 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		BF2F9B42159819FF009E1D80 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BF2F9B44159819FF009E1D80 /* WCFoldableImageView-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "WCFoldableImageView-Prefix.pch"; sourceTree = "<group>"; };
+		BF2F9B45159819FF009E1D80 /* WCAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WCAppDelegate.h; sourceTree = "<group>"; };
+		BF2F9B46159819FF009E1D80 /* WCAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WCAppDelegate.m; sourceTree = "<group>"; };
+		BF2F9B49159819FF009E1D80 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		BF2F9B4B159819FF009E1D80 /* WCViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WCViewController.h; sourceTree = "<group>"; };
+		BF2F9B4C159819FF009E1D80 /* WCViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WCViewController.m; sourceTree = "<group>"; };
+		BF2F9B5715981A71009E1D80 /* WCFoldableImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WCFoldableImageView.h; path = ../../WCFoldableImageView.h; sourceTree = "<group>"; };
+		BF2F9B5815981A71009E1D80 /* WCFoldableImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WCFoldableImageView.m; path = ../../WCFoldableImageView.m; sourceTree = "<group>"; };
+		BF2F9B5D15981C3E009E1D80 /* Image.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Image.png; sourceTree = "<group>"; };
+		BF2F9B5E15981C3E009E1D80 /* Image@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Image@2x.png"; sourceTree = "<group>"; };
+		BF2F9B6115981CBE009E1D80 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		BF2F9B6315981CC3009E1D80 /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon@2x.png"; sourceTree = "<group>"; };
+		BF2F9B6515981EBE009E1D80 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BF2F9B2F159819FF009E1D80 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF2F9B6615981EBE009E1D80 /* QuartzCore.framework in Frameworks */,
+				BF2F9B37159819FF009E1D80 /* UIKit.framework in Frameworks */,
+				BF2F9B39159819FF009E1D80 /* Foundation.framework in Frameworks */,
+				BF2F9B3B159819FF009E1D80 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BF2F9B27159819FF009E1D80 = {
+			isa = PBXGroup;
+			children = (
+				BF2F9B6115981CBE009E1D80 /* Icon.png */,
+				BF2F9B6315981CC3009E1D80 /* Icon@2x.png */,
+				BF2F9B3C159819FF009E1D80 /* WCFoldableImageView */,
+				BF2F9B35159819FF009E1D80 /* Frameworks */,
+				BF2F9B33159819FF009E1D80 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BF2F9B33159819FF009E1D80 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BF2F9B32159819FF009E1D80 /* WCFoldableImageView.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BF2F9B35159819FF009E1D80 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BF2F9B36159819FF009E1D80 /* UIKit.framework */,
+				BF2F9B38159819FF009E1D80 /* Foundation.framework */,
+				BF2F9B3A159819FF009E1D80 /* CoreGraphics.framework */,
+				BF2F9B6515981EBE009E1D80 /* QuartzCore.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BF2F9B3C159819FF009E1D80 /* WCFoldableImageView */ = {
+			isa = PBXGroup;
+			children = (
+				BF2F9B48159819FF009E1D80 /* MainStoryboard.storyboard */,
+				BF2F9B45159819FF009E1D80 /* WCAppDelegate.h */,
+				BF2F9B46159819FF009E1D80 /* WCAppDelegate.m */,
+				BF2F9B4B159819FF009E1D80 /* WCViewController.h */,
+				BF2F9B4C159819FF009E1D80 /* WCViewController.m */,
+				BF2F9B5B15981A84009E1D80 /* WCFoldableImageView */,
+				BF2F9B5C15981C3E009E1D80 /* Images */,
+				BF2F9B3D159819FF009E1D80 /* Supporting Files */,
+			);
+			path = WCFoldableImageView;
+			sourceTree = "<group>";
+		};
+		BF2F9B3D159819FF009E1D80 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BF2F9B3E159819FF009E1D80 /* WCFoldableImageView-Info.plist */,
+				BF2F9B3F159819FF009E1D80 /* InfoPlist.strings */,
+				BF2F9B42159819FF009E1D80 /* main.m */,
+				BF2F9B44159819FF009E1D80 /* WCFoldableImageView-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BF2F9B5B15981A84009E1D80 /* WCFoldableImageView */ = {
+			isa = PBXGroup;
+			children = (
+				BF2F9B5715981A71009E1D80 /* WCFoldableImageView.h */,
+				BF2F9B5815981A71009E1D80 /* WCFoldableImageView.m */,
+			);
+			name = WCFoldableImageView;
+			sourceTree = "<group>";
+		};
+		BF2F9B5C15981C3E009E1D80 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				BF2F9B5D15981C3E009E1D80 /* Image.png */,
+				BF2F9B5E15981C3E009E1D80 /* Image@2x.png */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BF2F9B31159819FF009E1D80 /* WCFoldableImageView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BF2F9B50159819FF009E1D80 /* Build configuration list for PBXNativeTarget "WCFoldableImageView" */;
+			buildPhases = (
+				BF2F9B2E159819FF009E1D80 /* Sources */,
+				BF2F9B2F159819FF009E1D80 /* Frameworks */,
+				BF2F9B30159819FF009E1D80 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WCFoldableImageView;
+			productName = WCFoldableImageView;
+			productReference = BF2F9B32159819FF009E1D80 /* WCFoldableImageView.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BF2F9B29159819FF009E1D80 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = WC;
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = BF2F9B2C159819FF009E1D80 /* Build configuration list for PBXProject "WCFoldableImageView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = BF2F9B27159819FF009E1D80;
+			productRefGroup = BF2F9B33159819FF009E1D80 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BF2F9B31159819FF009E1D80 /* WCFoldableImageView */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BF2F9B30159819FF009E1D80 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF2F9B41159819FF009E1D80 /* InfoPlist.strings in Resources */,
+				BF2F9B4A159819FF009E1D80 /* MainStoryboard.storyboard in Resources */,
+				BF2F9B5F15981C3E009E1D80 /* Image.png in Resources */,
+				BF2F9B6015981C3E009E1D80 /* Image@2x.png in Resources */,
+				BF2F9B6215981CBE009E1D80 /* Icon.png in Resources */,
+				BF2F9B6415981CC3009E1D80 /* Icon@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BF2F9B2E159819FF009E1D80 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF2F9B43159819FF009E1D80 /* main.m in Sources */,
+				BF2F9B47159819FF009E1D80 /* WCAppDelegate.m in Sources */,
+				BF2F9B4D159819FF009E1D80 /* WCViewController.m in Sources */,
+				BF2F9B5915981A71009E1D80 /* WCFoldableImageView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		BF2F9B3F159819FF009E1D80 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BF2F9B40159819FF009E1D80 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		BF2F9B48159819FF009E1D80 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BF2F9B49159819FF009E1D80 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BF2F9B4E159819FF009E1D80 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		BF2F9B4F159819FF009E1D80 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BF2F9B51159819FF009E1D80 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "WCFoldableImageView/WCFoldableImageView-Prefix.pch";
+				INFOPLIST_FILE = "WCFoldableImageView/WCFoldableImageView-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		BF2F9B52159819FF009E1D80 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "WCFoldableImageView/WCFoldableImageView-Prefix.pch";
+				INFOPLIST_FILE = "WCFoldableImageView/WCFoldableImageView-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BF2F9B2C159819FF009E1D80 /* Build configuration list for PBXProject "WCFoldableImageView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF2F9B4E159819FF009E1D80 /* Debug */,
+				BF2F9B4F159819FF009E1D80 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BF2F9B50159819FF009E1D80 /* Build configuration list for PBXNativeTarget "WCFoldableImageView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF2F9B51159819FF009E1D80 /* Debug */,
+				BF2F9B52159819FF009E1D80 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BF2F9B29159819FF009E1D80 /* Project object */;
+}
